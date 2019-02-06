@@ -39,10 +39,11 @@ mv dev/p/r2core.js            ../radare2/shlr/www/p/r2core.js
 mv dist/t/app.js              ../radare2/shlr/www/t/app.js
 
 cd ..
+rm -rf /opt/app/radare2-webui
+
 
 ## Install Server
 git clone https://github.com/fkie-cad/fact_radare_viewer.git
-install_clean -y python3 python3-pip
 pip3 install -r fact_radare_viewer/requirements.txt
 
 
