@@ -44,7 +44,11 @@ rm -rf /opt/app/radare2-webui
 
 ## Install Server
 git clone https://github.com/fkie-cad/fact_radare_viewer.git
-pip3 install -r fact_radare_viewer/requirements.txt
+pip3 install -r fact_radare_viewer/requirements.txtgit
+
+
+## Install Python Plugin
+pip3 install r2pipe
 
 
 ## Remove Redundant Packages
