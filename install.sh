@@ -6,8 +6,8 @@ install_clean \
     build-essential \
     git \
     npm \
-    python3-pip \
-    python3
+    python3 \
+    python3-pip
 
 ## Install Radare
 git clone https://github.com/radare/radare2.git
@@ -48,6 +48,7 @@ pip3 install -r fact_radare_viewer/requirements.txtgit
 
 
 ## Install Python Plugin
+pip3 install setuptools wheel
 pip3 install r2pipe
 
 
